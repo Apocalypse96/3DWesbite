@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper-Futuristic Cyberpunk Metropolis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading">
+        <div class="spinner"></div>
+        <div class="load-text">Initializing Neural Interface...</div>
+    </div>
+    <canvas id="scene"></canvas>
+    <div id="ui-overlay">
+        <div id="top-bar">
+            <div class="neon-text glitch" data-text="NEO-TOKYO 2099">NEO-TOKYO 2099</div>
+            <div id="credits">¤ 1,000,000</div>
+        </div>
+        <div id="side-panel">
+            <button class="holo-button" id="toggle-rain">Toggle Acid Rain</button>
+            <button class="holo-button" id="change-time">Shift Reality</button>
+            <button class="holo-button" id="launch-drones">Deploy Nano-Swarm</button>
+            <button class="holo-button" id="activate-shield">Activate Neural Shield</button>
+        </div>
+        <div id="bottom-bar">
+            <div id="news-ticker">
+                <span>Breaking: Quantum AI achieves sentience! • Cybernetic implants now mandatory • Virtual reality indistinguishable from base reality • Time travel paradox solved...</span>
+            </div>
+        </div>
+    </div>
+    <div id="vfx-overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
